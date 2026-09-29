@@ -1,1 +1,28 @@
+{
+  "name": "aurora-oracle-vip",
+  "version": "5.0.0",
+  "description": "Aurora Oracle VIP v5 — 78 algorithms · 2s poll · auto settle · auto predict",
+  "main": "VIP.js",
+  "author": "@DENIUS09",
+  "license": "MIT",
 
+  "scripts": {
+    "start": "node VIP.js",
+    "dev": "node --watch VIP.js",
+    "prod": "NODE_ENV=production node VIP.js"
+  },
+
+  "engines": {
+    "node": ">=18.0.0"
+  },
+
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+
+  "keywords": [
+    "aurora", "oracle", "vip", "md5", "tai-xiu",
+    "prediction", "api", "denius"
+  ]
+}
